@@ -5,14 +5,15 @@
 .header {
     background-color: #2b2a2a;
     color: white;
-    font-family: Georgia, Verdana, Tahoma;
+    font-family: Georgia, Verdana, Tahoma, Courier;
     font-weight: 500;
-    padding-top: 2ex;
-    padding-right: 1em;
-    padding-bottom: 2ex;
-    padding-left: 1.25em;
+    /*padding:  2ex 1em 2ex 1.25em*/;
 }
 
+.header-icon {
+    max-height: 21px;
+    max-width: auto;
+}
 
 .img-fluid {
     max-width: 100px;
