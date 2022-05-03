@@ -1,16 +1,48 @@
-
-.header {
-    background-color: #2b2a2a;
-    color: white;
-    font-family: Georgia, Verdana, Tahoma, Courier;
-    font-weight: 500;
-    /*padding:  2ex 1em 2ex 1.25em*/;
+.container {
+    flex-direction: row;
 }
 
-.header-icon {
+.d-flex {
+    display: flex;
+}
+
+/* ======================================= HEADER ======================================= */
+header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding:  2ex 1em 2ex 1.25em;
+}
+
+#name {
+    font-size: 1.20em;
+    font-weight: 500;
+    font-family: Georgia, Verdana, Tahoma, Courier;
+}
+
+#logo-github {
     max-height: 21px;
     max-width: auto;
+    margin-right: 1ex;
 }
+#logo-in {
+    margin-right: 1ex;
+}
+
+#btn-login {
+    font-size: 1.0125em;
+    font-weight: 500;
+    padding: 1ex 1.5ex;
+    background: none;
+    color: rgb(1, 133, 1);
+    border: 0.125em rgb(1, 133, 1) solid;
+    border-radius: 0.35rem;
+}
+/* ====================================================================================== */ 
+
+
+
 
 .img-fluid {
     max-width: 100px;
