@@ -48,13 +48,24 @@ header {
     height: 50vh;
     object-fit: cover; 
     border-radius: 3rem 3rem 0rem 0rem;
+    z-index: 1;
 }
 
 .banner-row {
     margin: 1.25rem;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 3rem;
+}
 
+#prof-pic {
+    width: auto;
+    height: 35vh;
+    object-fit: cover; 
+    border-radius: 100%;
+    position: relative;
+    left: 2vw;
+    bottom: 20vh;
+    z-index: 2;
 }
 
 /* ============================================================================================== */
