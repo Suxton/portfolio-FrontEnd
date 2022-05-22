@@ -57,6 +57,10 @@ header {
     border-radius: 3rem;
 }
 
+#prof-pic-container {
+    margin-bottom: -20vh;
+}
+
 #prof-pic {
     position: relative;
     left: 2vw;
@@ -66,7 +70,7 @@ header {
     height: 35vh;
     object-fit: cover; 
     border-radius: 100%;
-}
+} 
 
 .edit-btn {
     margin-left: 1.175rem;
@@ -78,8 +82,21 @@ header {
 }
 
 .bi-pencil-square {
-    min-height: 2.75rem;
+    min-height: 2.25rem;
     width: auto;
+    position: relative;
+    left: 1.25vh;
+    bottom: 6vh;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn {
+    margin: 0rem -1rem 1.5rem 1.5rem;
 }
 
 /* ============================================================================================== */
