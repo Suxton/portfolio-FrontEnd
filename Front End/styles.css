@@ -16,7 +16,7 @@ header {
     padding:  2ex 1rem;
 }
 
-#name {
+#header-name {
     padding-left: 1rem;
     font-size: 1.75rem;
     font-weight: 500;
@@ -58,35 +58,32 @@ header {
 }
 
 #prof-pic-container {
-    margin-bottom: -20vh;
+    margin-bottom: -19vh;
+    object-fit: cover;
+    width: 35vh;
+    position: relative;
+    left: 1.5vw;
+    bottom: 19vh;
+    z-index: 2;
 }
 
 #prof-pic {
-    position: relative;
-    left: 2vw;
-    bottom: 20vh;
-    z-index: 2;
-    width: auto;
-    height: 35vh;
-    object-fit: cover; 
     border-radius: 100%;
+    width: 100%;
+    height: auto;
 } 
 
 .edit-btn {
-    margin-left: 1.175rem;
     position: relative;
-    left: 1vw;
-    bottom: 5vh;
+    left: .5vw;
+    top: 11vh;
     background: none;
     border: none;
 }
 
 .bi-pencil-square {
-    min-height: 2.25rem;
+    min-height: 2.5rem;
     width: auto;
-    position: relative;
-    left: 1.25vh;
-    bottom: 6vh;
 }
 
 .btn-primary {
@@ -95,8 +92,29 @@ header {
 	border-color: #007bff;
 }
 
-.btn {
-    margin: 0rem -1rem 1.5rem 1.5rem;
+#brief-intro {
+    padding-left: 2rem;
+}
+
+#brief-intro h3 {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 2.75rem;
+}
+
+#brief-intro p {
+    margin-bottom: .5rem;
+    font-size: 1.65rem;
+}
+
+#buttons-div {
+    margin: 1.425rem 2rem 1.5rem 2rem;
+}
+
+#buttons-div button {
+   margin-right: .5rem;
+   font-weight: 500;
+   font-size: 1.5rem;
 }
 
 /* ============================================================================================== */
