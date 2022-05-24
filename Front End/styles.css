@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.justify-space-between {
+    justify-content: space-between;
+}
+
 /* ======================================= HEADER ======================================= */
 header {
     align-items: center;
@@ -40,7 +44,7 @@ header {
 }
 /* ====================================================================================== */ 
 
-/* ======================================== ABOUT ROW ======================================== */
+/* ======================================== "ABOUT" ROW ======================================== */
 
 #banner {
     display: block;
@@ -74,11 +78,14 @@ header {
 } 
 
 .edit-btn {
+    background: none;
+    border: none;
+}
+
+#profile-edit-btn {
     position: relative;
     left: .5vw;
     top: 11vh;
-    background: none;
-    border: none;
 }
 
 .bi-pencil-square {
@@ -125,8 +132,19 @@ header {
     border: 1px solid rgb(211, 211, 211);
     border-radius: 3rem;
     min-height: 8rem;
-    padding: 0 0 1rem 2rem;
+    padding: 1rem 2rem 1rem 3rem;
     margin: 1.25rem;
   }
 
+  /* .normal-row h1,h2,h3,h4,h5,h6 {
+      margin: 0;
+  } */
+
+.first-btn-section {
+    margin-top: 2rem;
+}
+
+#acerca-de {
+    font-size: 1.65rem;
+}
 /* ============================================================================================== */
