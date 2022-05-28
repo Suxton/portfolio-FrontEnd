@@ -3,34 +3,18 @@
     padding: 0;
 }
 
-.d-flex {
-    display: flex;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-
 /* ======================================= HEADER ======================================= */
-header {
-    align-items: center;
-    justify-content: space-between;
-    background-color: #252525;
-    color: white;
-    padding:  2ex 1rem;
-}
 
-#header-name {
-    padding-left: 1rem;
-    font-size: 1.75rem;
+.fs-4 {
     font-weight: 500;
     font-family: Georgia, Verdana, Tahoma, Courier;
 }
 
 .logo {
-    max-height: 3rem;
+    max-height: 2rem;
     max-width: auto;
     padding-right: .75ex;
+    white-space: nowrap;
 }
 
 /* ====================================================================================== */ 
