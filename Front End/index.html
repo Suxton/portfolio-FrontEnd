@@ -14,7 +14,7 @@
         <header class="p-3 bg-dark text-white">
             <div class="container-fluid">
                 <div class="d-flex align-items-center justify-content-between">
-                    <span class="fs-4">
+                    <span class="fs-5">
                         Nicolás Pellegrini
                     </span>
                     <div class="text-end">
@@ -31,47 +31,50 @@
         </header>
 
         <div class="container-fluid">
-            <div class="row banner-row">
-                <div class="col">
-                    <div>
-                        <img  id="banner" class ="img-fluid" src="./img/bg_img.jpg" alt="A photography of a galaxy">
+            <div class="m-3 border border-1 rounded-3-rem">
+                <div class="row">
+                        <div>
+                            <img  id="banner" class ="img-fluid" src="./img/bg_img.jpg" alt="A photography of a galaxy">
+                        </div>
+                        <div id="prof-pic-container" class="d-flex">
+                            <img id="prof-pic" src="./img/test_image.jpg" alt="Profile picture">
+                            <button id="profile-edit-btn" class="edit-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                </svg>
+                            </button> 
+                        </div>
+                    <div class="col" id="brief-intro">
+                        <h3>Nicolás Pellegrini</h3>
+                        <p>Licenciado en Ciencias de la Computación</p>
+                        <p>Buenos Aires (Argentina)</p>
                     </div>
-                    <div id="prof-pic-container" class="d-flex">
-                        <img id="prof-pic" src="./img/test_image.jpg" alt="Profile picture">
-                        <button id="profile-edit-btn" class="edit-btn">
+                    <div class="col" id="buttons-div">
+                        <button type="button" class="btn btn-primary">Información de Contacto</button>
+                        <button type="button" class="btn btn-light">Añadir Sección</button>
+                        <button type="button" class="btn btn-light">Más</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="m-3 border border-1 rounded-3-rem normal-section-style">
+                <div id="acerca-de" class="row normal-row">
+                    <div class="col d-flex justify-space-between">
+                        <h2>Acerca de</h2>
+                        <button class="edit-btn first-btn-section">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                                 <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
                                 <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
                             </svg>
                         </button> 
                     </div>
-                </div>
-                <div class="col" id="brief-intro">
-                    <h3>Nicolás Pellegrini</h3>
-                    <p>Licenciado en Ciencias de la Computación</p>
-                    <p>Buenos Aires (Argentina)</p>
-                </div>
-                <div class="col" id="buttons-div">
-                    <button type="button" class="btn btn-primary">Información de Contacto</button>
-                    <button type="button" class="btn btn-light">Añadir Sección</button>
-                    <button type="button" class="btn btn-light">Más</button>
+                    <div class="col">
+                        <p>Soy un estudiante con un título de Técnico en Programación y futuro Licenciado en Ciencias de la Computación. Busco adquirir mis primeros conocimientos en el Desarrollo de Software trabajando en equipo. También, busco profundizar mis conocimientos en Programación (Java, Python, etc.) y ser capaz de resolver cualquier problema que se me presente con facilidad y profesionalismo. Soy muy diestro con la tecnología, y estoy siempre dispuesto a aprender nuevas formas de desarrollo y herramientas. Me encanta aprender idiomas y mi fuerte es el Inglés.</p>
+                    </div>
                 </div>
             </div>
-
-            <div id="acerca-de" class="row normal-row">
-                <div class="col d-flex justify-space-between">
-                    <h2>Acerca de</h2>
-                    <button class="edit-btn first-btn-section">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
-                            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-                            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-                        </svg>
-                    </button> 
-                </div>
-                <div class="col">
-                    <p>Soy un estudiante con un título de Técnico en Programación y futuro Licenciado en Ciencias de la Computación. Busco adquirir mis primeros conocimientos en el Desarrollo de Software trabajando en equipo. También, busco profundizar mis conocimientos en Programación (Java, Python, etc.) y ser capaz de resolver cualquier problema que se me presente con facilidad y profesionalismo. Soy muy diestro con la tecnología, y estoy siempre dispuesto a aprender nuevas formas de desarrollo y herramientas. Me encanta aprender idiomas y mi fuerte es el Inglés.</p>
-                </div>
-            </div>
+            
 
             <div class="row normal-row">
                 <div class="col">

@@ -5,7 +5,7 @@
 
 /* ======================================= HEADER ======================================= */
 
-.fs-4 {
+.fs-5 {
     font-weight: 500;
     font-family: Georgia, Verdana, Tahoma, Courier;
 }
@@ -19,7 +19,7 @@
 
 /* ====================================================================================== */ 
 
-/* ======================================== "ABOUT" ROW ======================================== */
+/* ======================================== "ABOUT" SECTION ======================================== */
 
 #banner {
     display: block;
@@ -30,9 +30,7 @@
     z-index: 1;
 }
 
-.banner-row {
-    margin: 1.25rem;
-    border: 1px solid rgb(211, 211, 211);
+.rounded-3-rem {
     border-radius: 3rem;
 }
 
@@ -104,9 +102,7 @@
 
 /* ===================================== NORMAL ROWS ============================================ */
 
-.normal-row {
-    border: 1px solid rgb(211, 211, 211);
-    border-radius: 3rem;
+.normal-section-style {
     min-height: 8rem;
     padding: 2.4rem 3rem 2.4rem 3rem;
     margin: 1.25rem;
