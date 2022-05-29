@@ -3,10 +3,21 @@
     padding: 0;
 }
 
+.fs-2quarter-rem {
+    font-size: 2.25rem;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.rounded-2half-rem {
+    border-radius: 2.5rem;
+}
+
 /* ======================================= HEADER ======================================= */
 
-.fs-5 {
-    font-weight: 500;
+header .fs-4 {
     font-family: Georgia, Verdana, Tahoma, Courier;
 }
 
@@ -30,17 +41,13 @@
     z-index: 1;
 }
 
-.rounded-3-rem {
-    border-radius: 3rem;
-}
-
 #prof-pic-container {
-    margin-bottom: -19vh;
     object-fit: cover;
-    width: 35vh;
+    width: 40vh;
     position: relative;
     left: 1.5vw;
     bottom: 19vh;
+    margin-bottom: -19vh;
     z-index: 2;
 }
 
@@ -55,69 +62,21 @@
     border: none;
 }
 
-#profile-edit-btn {
+#prof-pic-container .edit-btn {
     position: relative;
     left: .5vw;
     top: 11vh;
 }
 
 .bi-pencil-square {
-    min-height: 2.5rem;
+    min-height: 1.75rem;
     width: auto;
-}
-
-.btn-primary {
-	color: #fff;
-	background-color: #007bff;
-	border-color: #007bff;
-}
-
-#brief-intro {
-    padding-left: 2rem;
-}
-
-#brief-intro h3 {
-    margin-top: 1rem;
-    font-weight: 600;
-    font-size: 2.75rem;
-}
-
-#brief-intro p {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    font-size: 1.65rem;
-}
-
-#buttons-div {
-    margin: 1.425rem 2rem 1.5rem 2rem;
-}
-
-#buttons-div button {
-   margin-right: .5rem;
-   font-weight: 500;
-   font-size: 1.5rem;
 }
 
 /* ============================================================================================== */
 
 /* ===================================== NORMAL ROWS ============================================ */
 
-.normal-section-style {
-    min-height: 8rem;
-    padding: 2.4rem 3rem 2.4rem 3rem;
-    margin: 1.25rem;
-    align-items: center;
-  }
 
-  .normal-row h1,h2,h3,h4,h5,h6,p {
-      margin: 0;
-  }
 
-/* .first-btn-section {
-    
-} */
-
-#acerca-de {
-    font-size: 1.65rem;
-}
 /* ============================================================================================== */
