@@ -65,8 +65,6 @@ header .fs-4 {
     white-space: nowrap;
 }
 
-/* hr {
-    align-self: center;
-    width: 70%;
-    height: 2px !important; 
-} 
+.progress {
+    width: 50%;
+}
