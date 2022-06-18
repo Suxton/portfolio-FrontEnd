@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fs-2quarter-rem {
+    font-size: 2.25rem;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.rounded-2half-rem {
+    border-radius: 2.5rem;
+}
+
+.ms-6 {
+    margin-left: 3rem;
+}
+
+header .fs-4 {
+    font-family: Georgia, Verdana, Tahoma, Courier;
+}
+
+.logo {
+    max-height: 2rem;
+    max-width: auto;
+    padding-right: .75ex;
+    white-space: nowrap;
+}
+
+#banner {
+    display: block;
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover; 
+    border-radius: 3rem 3rem 0rem 0rem;
+    z-index: 1;
+}
+
+#prof-pic-container {
+    object-fit: cover;
+    width: 13rem;
+    position: relative;
+    left: 1.5rem;
+    bottom: 6.75rem;
+    margin-bottom: -6.75rem;
+    z-index: 2;
+}
+
+#prof-pic-container button {
+    left: .5rem;
+    top: 4rem;
+}
+
+.bi {
+    min-height: 1.75rem;
+    width: auto;
+}
+
+.logo-empresa {
+    width: 4rem;
+    height: auto;
+    white-space: nowrap;
+}
+
+.progress {
+    width: 50%;
+}
