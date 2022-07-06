@@ -1,2 +1,1 @@
-# web-portfolio
-My personal web page
+This is the Front End of my portfolio.
